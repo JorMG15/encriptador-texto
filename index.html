@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es-mx">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de texto</title>
+    <link rel="stylesheet" href="/styles/style1.css" class="css">
+</head>
+<body>
+    <header>
+        <img src="assets/logo_alura.png" alt="logo-alura">
+    </header>
+    <main>
+        <form class="form__section">
+            <textarea class="form__input" name="mensaje-texto" id="" placeholder="Ingrese el texto aquí"></textarea>
+            <div class="alert__msg"><img src="assets/alert_icon.png" alt="logo-alerta">
+                <span>Solo letras minúsculas y sin acentos</span>
+            </div>
+            <div class="container">
+                <div class="btn__container">
+                    <input class="submit__container" type="submit" value="Encriptar">
+                    <input class="submit__container" type="submit" value="Desencriptar">
+                </div>
+            </div>
+        </form>
+    <aside class="cuadro__result">
+        <img src="assets/Muñeco.png" alt="persona-imagen" class="result__image">    
+        <div class="loader hidden"></div>
+        <div class="result__container">
+            <h3 class="result__title">
+                Ningún mensaje fue encontrado
+            </h3>
+            <p class="result_text">
+                Ingresa el texto que desees encriptar o desencriptar.
+            </p>
+            <button class="submit__container__copy">Copiar</button>
+        </div>
+    </aside>
+    </main>
+    <script src="app.js"></script>
+    <footer class="footer">
+        <div class="footer__container">
+            <p class="footer__text">Desarrollado por: Jor Men Marin Gonzales    </p>
+            <p class="footer__info">Ingeniero Químico | Diseñador Web</p>
+            <p class="footer__contact">Contacto: jormenmarin15@gmail.com</p>
+            <p class="footer__social">
+                Sígueme en: 
+                <a href="https://www.linkedin.com/in/jor-men-marin-gonzales-9b0708187/"><img src="./assets/linkedin.png"></a> |
+                <a href="https://github.com/JorMG15" target="_blank"><img src="./assets/github.png"></a>
+            </p>
+        </div>
+    </footer>
+    
+</body>
+</html>
